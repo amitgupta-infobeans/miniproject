@@ -1,0 +1,27 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#blurImage{
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+    filter:blur(70px)
+}
+
+#num{
+    font-size: 50px;
+    color: white;
+}
